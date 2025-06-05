@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" /> 
+        <link rel="stylesheet" href="../font.css"> 
+        <link href="login.css" rel="stylesheet" > 
+        <title>Авторизация</title> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="container__image-block">
+                <div class="image-block">
+                    <img class="image-block__img" width="462" height="501" src="../image/login_img.jfif" alt="Фото профиля" />
+                    <h1 class="image-block__text">Войти</h1>
+                </div>
+            </div>
+            <form class="container__form form" method="get">
+                <div class="form__input-group">
+                    <div class="input-group">
+                    <div class="input-group__email-block">
+                        <label for="email" class="input-group__label">Электропочта</label>
+                        <div class="email-block">
+                            <input type="email" name="email" class="email-block__input" />
+                            <span class="email-block__warning">Введите электропочту в формате *****@***.**</span>
+                        </div>
+                    </div>
+                    <div class="input-group__password-block">
+                        <label for="password" class="input-group__label">Пароль</label>
+                        <div class="password-block">
+                            <input type="password" name="password" class="password-block__input" />
+                            <button class="password-block__icon"><img src="../image/eye-off.png" alt="Скрыть пароль"></button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <button class="button form__button" type="submit">Продолжить</button>
+            </form>
+        </div>
+    </body>
+</html>

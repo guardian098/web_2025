@@ -1,0 +1,330 @@
+<<<<<<< HEAD
+.login__header{
+    font-family: Golos UI, sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    color: #222222;
+}
+.login__photo{
+    width: 462px;
+    height: 501px;
+    margin-bottom: 20px;
+}
+.login__form{
+    width: 343;
+    height: 251;
+    top: 415px;
+    left: 838px;
+    gap: 32px;
+}
+.login__email_form{
+    width: 343;
+    height: 88;
+    gap: 5px;
+}
+.login__password_form{
+    width: 343;
+    height: 67;
+    gap: 5px;
+}
+.login__text_form{
+    font-family: Golos UI, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+.small_text{
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+    color: #808080;
+}
+.input_email{
+    width: 343px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    background: #F2F3F5;
+    font-size: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.login__input_password{
+    width: 343px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    background: #F2F3F5;
+    font-size: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.login__button{
+    width: 343px;
+    height: 48px;
+    border-radius: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background: #222222;
+    text-align: center;
+    font-family: Golos UI, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.left_line{
+    width: 72;
+    height: 1080;
+    left: -1px;
+    border-right-width: 1px;
+}
+.home__avatar{
+    width: 32px;
+    height: 32px;
+}
+.home__post_header{
+    width: 474;
+    height: 32;
+    top: 16px;
+    justify-content: space-between;
+}
+.home__avatar_text{
+    font-family: Golos UI, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: #222222;
+}
+.home__avatar_icon{
+    width: 15.22px;
+    height: 15.22px;
+    top: 4px;
+    left: 4px;
+    border-width: 2px;
+    border: 2px; 
+    color: #808080
+}
+.home__like_zone{
+    width: 68px;
+    height: auto;
+    top: 554px;
+    gap: 3px;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    background: #2222220D;
+}
+.home__comment{
+    font-family: Golos UI, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+.profile_name{
+    font-family: Golos UI, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    vertical-align: middle;
+    color: #222222;
+}
+.profile_avatar{
+    width: 123px;
+    height: 123px;
+    top: 97px;
+    border-radius: 16px;
+    margin: auto;
+}
+.profile_des{
+    font-family: Golos UI, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    text-align: center;
+    color: #222222;
+}
+.profile_photo{
+    width: 447.41px;
+    height: 596.55px;
+    top: -155.82px;
+    left: -61.83px;
+=======
+.header{
+    font-family: Golos UI;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    color: #222222;
+}
+.form{
+    width: 343;
+    height: 251;
+    top: 415px;
+    left: 838px;
+    gap: 32px;
+}
+.email_form{
+    width: 343;
+    height: 88;
+    gap: 5px;
+}
+.password_form{
+    width: 343;
+    height: 67;
+    gap: 5px;
+}
+.text_form{
+    font-family: Golos UI;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+.small_text{
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+    color: #808080;
+}
+.input_email{
+    width: 343;
+    height: 44;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #F2F3F5;
+    padding-top: 13px;
+    padding-right: 12px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+}
+.input_password{
+    width: 343;
+    height: 44;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #F2F3F5;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+.button{
+    width: 343px;
+    height: 48px;
+    border-radius: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background: #222222;
+    text-align: center;
+    font-family: Golos UI;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.left_line{
+    width: 72;
+    height: 1080;
+    left: -1px;
+    border-right-width: 1px;
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+}
+.post_header{
+    width: 474;
+    height: 32;
+    top: 16px;
+    justify-content: space-between;
+}
+.avatar_text{
+    font-family: Golos UI;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: #222222;
+}
+.avatar_icon{
+    width: 15.22px;
+    height: 15.22px;
+    top: 4px;
+    left: 4px;
+    border-width: 2px;
+    border: 2px; 
+    color: #808080
+}
+.like_zone{
+    width: 68;
+    height: 30;
+    top: 554px;
+    gap: 3px;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    background: #2222220D;
+}
+.comment{
+    font-family: Golos UI;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+.profile_name{
+    font-family: Golos UI;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    vertical-align: middle;
+    color: #222222;
+}
+.profile_avatar{
+    width: 123px;
+    height: 123px;
+    top: 97px;
+    border-radius: 16px;
+    margin: auto;
+}
+.profile_des{
+    font-family: Golos UI;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    text-align: center;
+    color: #222222;
+}
+.profile_photo{
+    width: 447.41px;
+    height: 596.55px;
+    top: -155.82px;
+    left: -61.83px;
+>>>>>>> fcd3663c1af3a54f5da02a88f3ebd0cd483a9e0b
+}

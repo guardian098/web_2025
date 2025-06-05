@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.container__icon-menu{
+    position: fixed;
+    margin-top: 30px;
+    width: 72px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.container__profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    gap: 30px;
+}
+.profile__user-unit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.profile__photo{
+    width: 970px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.profile_name{
+    font: 500 32px/1.5 "Golos UI", sans-serif;
+    line-height: 32px;
+    color: #222222;
+    display: block;
+}
+.profile_avatar{
+    width: 123px;
+    height: 123px;
+    border-radius: 8px;
+    display: block;
+}
+.profile_des{
+    font: 400 15px/1 "Golos UI", sans-serif;
+    line-height: 18px;
+    width: 361px;
+    color: #222222;
+    display: block;
+    text-align: center;
+}
+.profile_post-count{
+    width: 100px;
+    height: 30px;
+    background: rgba(242, 243, 245, 1);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+}
+.profile_post-count-text{
+    font: 400 15px/1 "Golos UI", sans-serif;
+}
+.photo{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+}
+.icons{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.icons__dot{
+    display: flex;
+    justify-content: center;
+}
+.icons_round{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+}
+.post_round{
+    width: 101px;
+    height: 30px;
+    padding: 6px 10px;
+    background: rgba(242, 243, 245, 1);
+}

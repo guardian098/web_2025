@@ -1,0 +1,61 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "user1",
+            "name": "Ваня Денисов",
+            "avatar": "/image/avatar_img.jfif",
+            "bio": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!",
+            "stats": {
+                "posts": 43,
+                "photos": 9
+            },
+            "profile_photos": [
+                "/image/winter_img.jfif",
+                "/image/sky_img.jfif",
+                "/image/cake_img.jfif",
+                "/image/people_img.jfif",
+                "/image/coffee_img.jfif",
+                "/image/book_img.jfif",
+                "/image/tree_img.jfif",
+                "/image/selfie_img.jfif",
+                "/image/store_img.jfif"
+            ]
+        },
+        {
+            "id": 2,
+            "username": "user2",
+            "name": "Лиза Дёмина",
+            "avatar": "/image/avatar_2_img.jfif",
+            "bio": "Привет! Я люблю игры и книги!",
+            "stats": {
+                "posts": 6,
+                "photos": 6
+            },
+            "profile_photos": [
+                "/image/nature_img.jfif",
+                "/image/sunset_img.jfif",
+                "/image/mountain_img.jfif",
+                "/image/night_img.jfif",
+                "/image/food_img.jfif",
+                "/image/flower.jfif"
+            ]
+        },
+        {
+            "id": 3,
+            "username": "user3",
+            "name": "Андрей Дёмин",
+            "avatar": "/image/avatar_3_img.png",
+            "bio": "Всем привет)",
+            "stats": {
+                "posts": 3,
+                "photos": 3
+            },
+            "profile_photos": [
+                "/image/book_img.jfif",
+                "/image/food_img.jfif",
+                "/image/youtube_logo.png"
+            ]
+        }
+    ]
+}

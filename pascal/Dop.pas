@@ -1,0 +1,28 @@
+PROGRAM WorkWithQueryString(INPUT, OUTPUT);
+USES
+  DOS;
+
+FUNCTION GetQueryStringParameter(Key: STRING): STRING;
+VAR
+  S: STRING;
+BEGIN
+  IF POS(Key, GETENV('QUERY_STRING')) <> 0
+  THEN
+    BEGIN
+      S := COPY(GETENV('QUERY_STRING'), POS(Key, GETENV('QUERY_STRING')));
+      IF POS('&', S) <> 0
+      THEN
+        GetQueryStringParameter := COPY(S, POS('=', S) + 1, POS('&', S) - POS('=', S) - 1)
+      ELSE
+        GetQueryStringParameter := COPY(S, POS('=', S) + 1)
+    END
+  ELSE
+    GetQueryStringParameter := 'Not data'
+END;
+
+BEGIN {WorkWithQueryString}
+  WRITELN;
+  WRITELN('First Name: ', GetQueryStringParameter('first_name'));
+  WRITELN('Last Name: ', GetQueryStringParameter('last_name'));
+  WRITELN('Age: ', GetQueryStringParameter('age'))
+END. {WorkWithQueryString}
